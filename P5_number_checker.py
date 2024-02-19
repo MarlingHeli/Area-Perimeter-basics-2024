@@ -7,7 +7,7 @@ def num_check(question):
             response = float(input(question))
 
             if response > 0:
-            5    return response #ends loop
+                return response #ends loop
             else:
                 print(error)
 
